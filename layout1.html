@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .container{
+height: 100vh;
+background-color: white;
+margin: auto;
+border: 2px solid gray;
+
+    }
+    .box{
+        background-color: darkmagenta;
+        width: 70%;
+        height: 85%;
+        border: 2px solid gray;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+    #b1{
+        height: 20%;
+    }
+    #b2{
+        height: 60%;
+    }
+    .bbox{
+        width: 30%;
+        height: 100%;
+        border: 1px solid gray;
+       background-color: brown;
+    }
+    .bcox{
+        width: 70%;
+        height: 100%;
+        border: 2px solid gray;
+        background-color: aqua;
+        position: relative;
+
+    }
+    .ibox{
+        width: 100%;
+        height: 30%;
+        background-color: orchid;
+        border: 2px solid gray;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .ibox1{
+        width: 100%;
+        height: 70%;
+        background-color: darkmagenta;
+        border: 2px solid gray;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .cbox1{
+        width:60% ;
+        height: 60%;
+        background-color: peru;
+        border: 2px solid gray;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .cbox2{
+        width: 100%;
+        height: 40%;
+        background-color: orangered;
+        border: 2px solid gray;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .cbox3{
+width: 40%;
+height: 30%;
+background-color: orchid;
+border: 2px solid gray;
+display: inline-block;
+position: absolute;
+right: 0;
+top: 0;
+display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .cbox4{
+        width: 40%;
+        height: 30%;
+        background-color: skyblue;
+        position: absolute;
+        right: 0;
+        bottom: 40%;
+        border: 2px solid gray;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .wbox{
+        width: 70%;
+        height: 100%;
+        background-color: blueviolet;
+        border: 2px solid gray;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .wbox1{
+        width: 30%;
+        height: 100%;
+        background-color:peru ;
+        border: 2px solid gray;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+.cbox4{
+    
+}
+
+</style>
+<body>
+    <div class="container">
+        <div class="box" id="b1">1</div>
+        <div class="box" id="b2">
+            <div class="bbox">
+                <div class="ibox">2</div>
+                <div class="ibox1">5</div>
+            </div>
+            <div class="bcox">
+                <div class="cbox1">3</div>
+                <div class="cbox2">7</div>
+                <div class="cbox3">4</div>
+                    <div class="cbox4">6</div>
+                
+                
+                
+            </div>
+        </div>
+        <div class="box" id="b1">
+            <div class="wbox">8</div>
+            <div class="wbox1">9</div>
+        </div>
+    </div>
+</body>
+</html>
