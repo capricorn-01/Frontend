@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            height: 100vh;
+            width: 100%;
+            border: 2px solid black;
+            position: relative;
+            background-image: url(https://www.w3schools.com/w3images/architect.jpg);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        .cbox{
+            height: 10%;
+            width: 100%;
+            background-color: white;
+            border: dashed black;
+            position: fixed;
+            top: 0;
+            display: flex;
+            align-items: center;
+        }
+        .cimg{
+            height: 100%;
+            width: 100%;
+            display: flex;
+        }
+        .txtbox1{
+            height: 6%;
+            width: 4%;
+            color: white;
+            background-color: black;
+           opacity: 0.8;
+            font-size: 36px;
+            display: flex;
+            justify-content: center;
+        }
+        .txtbox2{
+            height: 6%;
+            width: 6%;
+            color: white;
+            
+            font-size: 36px;
+        }
+        .container2{
+            height: 100vh;
+            width: 100%;
+            border: solid black;
+           
+        }
+        .box{
+            height: 20%;
+            width: 100%;
+            border: dashed black;
+            font-size: 35px;
+            display: flex;
+            align-items: center;
+            font-family: sans-serif;
+        }
+        .box2{
+            height: 60%;
+            width: 100%;
+            border: dashed blue;
+            display: flex;
+           flex-wrap: wrap;
+           justify-content: space-evenly;
+        }
+        .box3{
+            height: 5%;
+            width: 100%;
+            border: dotted black;
+            font-size: 25px;
+            font-family: sans-serif;
+        }
+        .box4{
+            height: 15%;
+            width: 100%;
+            font-size: 16px;
+            font-family: sans-serif;
+            display: flex;
+            align-items: center;
+        }
+        .ibox{
+            height: 210px;
+            width: 320px;
+            border: 1px solid blue;
+        }
+        #a1{
+            background-image: url(https://www.w3schools.com/w3images/house5.jpg);
+            background-size: cover;
+        }
+        #a2{
+            background-image: url(https://www.w3schools.com/w3images/house2.jpg);
+            background-size: cover;
+        }
+        #a3{
+            background-image: url(https://www.w3schools.com/w3images/house3.jpg);
+            background-size: cover;
+        }
+        #a4{
+            background-image: url(https://www.w3schools.com/w3images/house4.jpg);
+            background-size: cover;
+        }
+        #a5{
+            background-image: url(https://www.w3schools.com/w3images/house2.jpg);
+            background-size: cover;
+        }
+        #a6{
+            background-image: url(https://www.w3schools.com/w3images/house5.jpg);
+            background-size: cover;
+        }
+        #a7{
+            background-image: url(https://www.w3schools.com/w3images/house4.jpg);
+            background-size: cover;
+        }
+        #a8{
+            background-image: url(https://www.w3schools.com/w3images/house3.jpg);
+            background-size: cover;
+        }
+        .tbox{
+            height: 20%;
+            width: 36%;
+            background-color: black;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: sans-serif;
+        }
+        .brbtn{
+            height: 60%;
+            width: 10%;
+            border: dotted red;
+            font-size: larger;
+            display: flex;
+            align-items: center;   
+            position: absolute;
+            left: 3%;  
+         }
+         .brlnk{
+            color: black;
+            text-decoration: none;
+        }
+        .prbtn{
+            height: 60%;
+            width: 10%;
+            border: dotted red;
+            font-size: larger;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            right: 20%;
+        }
+        .abtn{
+            height: 60%;
+            width: 10%;
+            border: dotted red;
+            font-size: larger;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            right: 10%;
+        }
+        .cbtn{
+            height: 60%;
+            width: 10%;
+            border: dotted red;
+            font-size: larger;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            right: 0;
+        }
+
+        .container3{
+            height: 50vh;
+            width: 100%;
+            border: 2px solid black;
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .cobox{
+            height: 100%;
+            width: 23%;
+            border: dashed blueviolet;
+        }
+        .conbox{
+        height: 50%;
+        width: 100%;
+        border: dotted green;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        }
+        #b4{
+           font-family: sans-serif;
+        }
+        
+        #img1{
+            background-image: url(https://www.w3schools.com/w3images/team2.jpg);
+            background-size: cover;
+        }
+        #img2{
+            background-image: url(https://www.w3schools.com/w3images/team1.jpg);
+            background-size: cover;
+        }
+        #img3{
+            background-image: url(https://www.w3schools.com/w3images/team3.jpg);
+            background-size: cover;
+        }
+        #img4{
+            background-image: url(https://www.w3schools.com/w3images/team4.jpg);
+            background-size: cover;
+        }
+        
+        
+        
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="txtbox1">HR</div>
+        <div class="txtbox2">Architects</div>
+     <div class="cbox">
+       <div class="brbtn"> <a href="BR Arcitects" class="brlnk" >HR  Arcitects </a></div>
+        
+     
+      
+      <div class="prbtn"> <a href="projects" class="brlnk">Projects</a></div> 
+      <div class="abtn">  <a href="projects" class="brlnk">About</a></div>
+      <div class="cbtn" ><a href="projects" class="brlnk">Contact</a></div>
+    
+     </div>
+    </div>
+    <div class="container2">
+        <div class="box">Projects</div>
+        <div class="box2">
+        <div class="ibox" id="a1"><div class="tbox">Summer House</div></div>
+        <div class="ibox" id="a2"><div class="tbox">Brick House</div></div>
+        <div class="ibox" id="a3"><div class="tbox">Renovated</div></div>
+        <div class="ibox" id="a4"><div class="tbox">Barn House</div></div>
+        <div class="ibox" id="a5"><div class="tbox">Summer House</div></div>
+        <div class="ibox" id="a6"> <div class="tbox">Brick House</div></div>
+        <div class="ibox" id="a7"><div class="tbox">Renovated</div></div>
+        <div class="ibox" id="a8"><div class="tbox">Barn House</div></div>
+        </div>
+        <div class="box3">About</div>
+        <div class="box4">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+        
+    </div>
+    <div class="container3">
+     <div class="cobox">
+        <div class="conbox" id="img1"></div>
+        <div class="conbox" id="b4">
+            <h2>John Doe</h2>
+            <h4>CEO & Founder</h4> 
+            <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+            <a href="contact" style="display: flex;justify-content: center;align-items: center; height: 20%;color: black ; text-decoration: none; background-color: gray; ">Contact</a>
+        </div>
+      </div>
+      <div class="cobox">
+        <div class="conbox" id="img2"></div>
+        <div class="conbox" id="b4">
+            <h2>Jan Doe</h2>
+            <h4>Architect</h4> 
+            <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+            <a href="contact" style="display: flex;justify-content: center;align-items: center; height: 20%;color: black ; text-decoration: none; background-color: gray; ">Contact</a>
+        </div>
+      </div>
+      <div class="cobox">
+        <div class="conbox" id="img3"></div>
+        <div class="conbox" id="b4">
+            <h2>Mike Rose</h2>
+            <h4>Architect</h4> 
+            <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+            <a href="contact" style="display: flex;justify-content: center; align-items: center; height: 20%;color: black ; text-decoration: none; background-color: gray;">Contact</a>
+        </div>
+      </div>
+      <div class="cobox">
+        <div class="conbox" id="img4" ></div>
+        <div class="conbox" id="b4"><h2>Dan Star</h2>
+            <h4>Architect</h4> 
+            <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+            <a href="contact" style="display: flex;justify-content: center;align-items: center; height: 20%;color: black ; text-decoration: none; background-color: gray;">Contact</a>
+        </div>
+      </div>
+    </div>
+    </div>
+</body>
+</html>
